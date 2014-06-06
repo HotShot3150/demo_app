@@ -3,6 +3,8 @@ ruby "1.9.3"
 
 gem 'rails', '3.2.13'
 
+gem 'pg'
+
 group :development do
   gem 'sqlite3', '1.3.5'
 end
@@ -17,6 +19,6 @@ end
 gem 'jquery-rails'
 
 
-group :production do
-  gem 'pg'
-end
+# group :production do
+#   gem 'pg'
+# end
